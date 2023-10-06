@@ -1,0 +1,24 @@
+cd ..    //exit folder
+cd d:    //directory ma enter thava
+cd deval/      //create folder
+git clone [https://github.com/DevalRadadiya/Exercise1.git]
+
+cd Exercise1/
+	git status
+
+upload file :
+	git add .
+	 
+commit :
+	git commit -am "0701"   //"datefoldercount"
+
+git config --global user.gmail "devalradadiya@gmail.com"
+git config --global user.name "Deval Radadiya"
+
+git commit
+
+git status
+
+git push on origin main
+
+   [sign in with browser]
