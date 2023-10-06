@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E464EEAF-250C-43F5-A62E-29C925F6603E}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Project1</RootNamespace>
+    <AssemblyName>Project1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>program45</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="exercise1.cs" />
+    <Compile Include="exercise10.cs" />
+    <Compile Include="exercise11.cs" />
+    <Compile Include="exercise12.cs" />
+    <Compile Include="exercise13.cs" />
+    <Compile Include="exercise14.cs" />
+    <Compile Include="exercise15.cs" />
+    <Compile Include="exercise16.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="exercise17.cs" />
+    <Compile Include="exercise18.cs" />
+    <Compile Include="exercise19.cs" />
+    <Compile Include="exercise2.cs" />
+    <Compile Include="exercise20.cs" />
+    <Compile Include="exercise22.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="exercise23.cs" />
+    <Compile Include="exercise24.cs" />
+    <Compile Include="exercise25.cs" />
+    <Compile Include="exercise27.cs" />
+    <Compile Include="exercise28.cs" />
+    <Compile Include="exercise29.cs" />
+    <Compile Include="exercise3.cs" />
+    <Compile Include="exercise30.cs" />
+    <Compile Include="exercise31.cs" />
+    <Compile Include="exercise32.cs" />
+    <Compile Include="exercise33.cs" />
+    <Compile Include="exercise34.cs" />
+    <Compile Include="exercise35.cs" />
+    <Compile Include="exercise36.cs" />
+    <Compile Include="exercise37.cs" />
+    <Compile Include="exercise38.cs" />
+    <Compile Include="exercise39.cs" />
+    <Compile Include="exercise4.cs" />
+    <Compile Include="exercise40.cs" />
+    <Compile Include="exercise41.cs" />
+    <Compile Include="exercise42.cs" />
+    <Compile Include="exercise43.cs" />
+    <Compile Include="exercise44.cs" />
+    <Compile Include="exercise45.cs" />
+    <Compile Include="exercise5.cs" />
+    <Compile Include="exercise6.cs" />
+    <Compile Include="exercise7.cs" />
+    <Compile Include="exercise8.cs" />
+    <Compile Include="exercise9.cs" />
+    <Compile Include="exercise21.cs" />
+    <Compile Include="exercise26.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
